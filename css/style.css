@@ -1,0 +1,23 @@
+/* *{
+    Text-shadow: 2px 4px 13px black;
+    
+} */
+
+.ProfileImage{
+    height: 200px;
+    width: 200px;
+}
+#linkedinbutton{
+    height: 50px;
+    width: 50px;
+}
+#githubbutton{
+    height : 50px;
+    width: 50px;;
+
+}
+*{background-color:silver;}
+ 
+.Top-Cards{
+    box-shadow: 2px 2px, 10px;
+}
