@@ -1,29 +1,103 @@
-*{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.headers{
-    display: flex;
-    justify-content: space-between;
-    
-}
+ * {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
 
-.links{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.MainCards{
+ .headers {
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+ .links {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+
+ .Aboutme {
+     display: grid;
+     grid-template-columns: 3fr;
+     grid-template-rows: 1fr;
+     grid-column-gap: 0px;
+     grid-row-gap: 0px;
+     justify-items: center;
+     padding-bottom: 30px;
+ }
+
+ .maincards {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: 1fr 0.1fr;
+     grid-column-gap: 0px;
+     grid-row-gap: 0px;
+     justify-items: center;
+     padding: 2px 16px;
+     /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
+     align-items: center;
+     padding: none;
+     border: none;
+     margin: none;
+     text-size-adjust: 80%;
+    
+ }
+
+ .bio1 {
+     grid-area: 1 / 2 / 2 / 3;
+     text-align: center;
+     max-width: 90%;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+     padding: none;
+     border: none;
+     margin: none;
+ }
+
+ .profileimagecontainer {
     display: grid;
-    flex-direction: column;
-    justify-items: center;
-    margin: 2rem auto;
-    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  padding: none;
+     border: none;
+     margin: none;
+     justify-items: center;
+ }
+
+ .ProfileImage {
+     display: grid;
+     padding: none;
+     border: none;
+     margin: none;
+     height: 300px;
+     width: 300px;
+ }
+
+ .Contact {
+     grid-area: 2 / 1 / 3 / 2;
+     text-align: center;
+     padding: none;
+     border: none;
+     margin: none;
+ }
+
+
+
+
+ /* .MainCards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0.4fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     
 }
 .Aboutme{
-    margin: -5px;
+    grid-area: 1 / 1 / 2 / 2;
 }
-#contactinfo{
+.Top-Cards{
+    grid-area: 2 / 2 / 3 / 3; 
+    } */
+
+
+ /* #contactinfo{
     text-align: center;
     text-decoration: underline  black;
     text-decoration-style: double;
@@ -31,9 +105,9 @@
     
 }
 .profileimagecontainer{
-    margin-bottom: -20px;
-}
-.Contact{
+    margin-bottom: -20px; */
+ /* } */
+ /* .Contact{
     text-align: center;
 
 }
@@ -43,8 +117,8 @@ text-align: center;
 .Skills{
     font-size: x-large;
     margin-top: 50px;
-    text-decoration: underline;
-}
+    text-decoration: underline; */
+ /* }
 .Skills-Listed{
 font-size: large;
 flex-wrap: wrap;
@@ -65,8 +139,8 @@ img{
     align-content: center;
     align-tracks: center;
     text-align: center;
-}
-.Projects{
+} */
+ /* .Projects{
     text-align: center;
     font-size: 180%;
     margin-bottom: -1px;
@@ -89,8 +163,8 @@ text-decoration: underline;
 margin-top: 60px;
 }
 .fallimg{
-    width: 230px;
-}
+    width: 230px; */
+ /* }
 .secpar{
     text-align: center;
 }
@@ -102,16 +176,15 @@ margin-top: 60px;
       background-color: lightblue;
     }
   } */
+ */ footer {
+     display: grid;
+     grid-template-rows: repeat(3, 1fr);
+     justify-content: center;
+     justify-content: center;
+     height: 3px;
 
-  footer{
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    justify-content: center;
-    justify-content: center;
-    height: 3px;
-    
-  }
-  .space{
-    margin-top: 30px;
-  }
- 
+ }
+
+ .space {
+     margin-top: 30px;
+ }
