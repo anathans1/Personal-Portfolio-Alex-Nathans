@@ -2,8 +2,20 @@
     Text-shadow: 2px 4px 13px black;
     
 } */
-
-
+html{
+    background: linear-gradient(green,goldenrod);
+    color:bisque;
+    
+}
+.header{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    /* background-color: green; */
+}
+.bio1{
+    font-size: 2rem;
+    
+}
 #linkedinbutton{
     height: 50px;
     width: 50px;
@@ -13,8 +25,22 @@
     width: 50px;;
 
 }
-*{background-color:darkseagreen;}
+/* *{background-color:darkseagreen;} */
  
 .Top-Cards{
     box-shadow: 2px 2px, 10px;
 }
+.Skills{
+font-size: 4rem;
+text-align: center;
+text-decoration: underline;
+
+}
+.Skills-Listed{
+text-align: center;
+font-size: 2rem;
+padding-right: 15px;
+padding-left: 15px;
+
+}
+
