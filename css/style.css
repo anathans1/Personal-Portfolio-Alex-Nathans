@@ -8,9 +8,17 @@ html{
     
 }
 .header{
-    padding-bottom: 30px;
-    padding-top: 30px;
+    background-color: rebeccapurple;
+    padding-bottom: 20px;
+    padding-top: 20px;
     /* background-color: green; */
+}
+#logo{
+    height: 100px;
+    width: 100px;
+}
+nav{
+    background-color: white;
 }
 .bio1{
     font-size: 2rem;
