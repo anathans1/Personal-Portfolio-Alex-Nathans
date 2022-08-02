@@ -3,8 +3,10 @@
     
 } */
 html{
-    background: linear-gradient(green,goldenrod);
+    background: linear-gradient(goldenrod,green);
     color:bisque;
+    padding: 30px, 
+    
     
 }
 .header{
