@@ -2,15 +2,26 @@
     Text-shadow: 2px 4px 13px black;
     
 } */
-html{
+.container{
     background: linear-gradient(green,goldenrod);
     color:bisque;
+    border: none;
+    padding: none;
+    margin: none;
     
 }
 .header{
-    padding-bottom: 30px;
-    padding-top: 30px;
+    background-color: rebeccapurple;
+    padding-bottom: 20px;
+    padding-top: 20px;
     /* background-color: green; */
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+nav{
+    background-color: white;
 }
 .bio1{
     font-size: 2rem;
