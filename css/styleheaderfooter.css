@@ -3,10 +3,10 @@
     list-style: none;
 }
 
-body{
+/* body{
   background-image: url(donutbackground2.jpg);
   height: 200px;
-}
+} */
 .button{
     width: 100px;
     height: 100px;
@@ -18,13 +18,13 @@ body{
     height: 500px;
 }
 
-.container{
+/* .container{
   display: grid;
 grid-template-columns: .4fr 1fr;
 grid-template-rows: 1fr;
 grid-column-gap: 0px;
 grid-row-gap: 0px;
-}
+} */
 .buttons{
   grid-area: 1 / 1 / 2 / 2; 
 }
