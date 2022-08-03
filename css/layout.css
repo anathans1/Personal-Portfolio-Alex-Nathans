@@ -165,6 +165,7 @@ width: 260px;
     justify-content: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    text-align: center;
     
     
 }
@@ -192,15 +193,17 @@ width: 260px;
   }
 .skillsused{
     text-align: left;
+    font-size: 17px;
 }
 .falloffolkpunk{
     display: flex;
     justify-content: center;
-   
+  
     
 }
 p{
     text-align: center;
+    
 }
 .otherprojects{
 text-align: center;
@@ -211,6 +214,7 @@ margin-top: 60px;
 .fallimg{
     height:230px;
     width: 390px;
+    
  }
 .secpar{
     text-align: center;
@@ -233,7 +237,8 @@ margin-top: 60px;
      justify-content: center;
      justify-content: center;
      height: 120px;
-     padding:10px;
+     
+     /* padding:10px; */
     font-size: 1.5rem;
     background-color: black;
 
@@ -254,4 +259,5 @@ margin-top: 60px;
     /* height: 10px;
     width: 10px; */
  }
+ 
  
