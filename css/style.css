@@ -3,11 +3,13 @@
     
 } */
 .container{
-    background: linear-gradient(green,goldenrod);
+    background: linear-gradient(green, #013220);
     color:bisque;
-    border: none;
+    /* border: none;
     padding: none;
-    margin: none;
+    margin: none; */
+    /* margin-right: 10px;
+    margin-left: 10px; */
     
 }
 .header{
