@@ -32,7 +32,7 @@
     height: 100%;
     transform-origin: center;
     transform-style: preserve-3d;
-    transform: rotateY(calc(var(--i)*41deg)) translateZ(400px);
+    transform: rotateY(calc(var(--i)*36deg)) translateZ(400px);
     /* The deg above is (360/numOfElements) */
 }
 
@@ -142,3 +142,8 @@
         background-color: purple;
     }
   } */
+
+  #oop{
+    
+  }
+  
