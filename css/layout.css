@@ -184,10 +184,11 @@ width: 260px;
 }
  .Projects{
     text-align: center;
-    font-size: 180%;
+    font-size: 150%;
     margin-bottom: -1px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     align-items: center;
+    
 }
 .project{
     min-width: 300px;
@@ -266,4 +267,7 @@ margin-top: 60px;
     width: 10px; */
  }
  
+ .projects-main-title{
+    
+ }
  

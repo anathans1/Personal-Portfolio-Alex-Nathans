@@ -49,7 +49,7 @@
 }
 
 .slider span img:hover {
-    transform: translateY(-28px) scale(1.2);
+    transform: translateY(-28px) scale(1.0);
 }
 
 
