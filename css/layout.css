@@ -167,6 +167,12 @@ height: 290px;
 width: 290px;
 border-radius: 50%;
 }
+#thyme{
+    border-radius: 0;
+}
+#spring{
+    border-radius: 0;
+}
 
 .arrangeprojects{
     display: flex;
