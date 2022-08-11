@@ -128,3 +128,8 @@ font-size: 1.2rem;
 .flex-slide{
     
 }
+
+.footer,
+.push {
+  height: 50px;
+}

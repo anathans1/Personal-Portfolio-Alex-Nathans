@@ -15,7 +15,7 @@ body {
 	position: absolute;
 	height: 100vh;
 	width: 100%;
-	display: -webkit-flex; /* Safari */
+	/* display: -webkit-flex; Safari */
 	display: flex;
 	overflow: hidden;
 	@media screen and (max-width: 768px) {
@@ -30,6 +30,7 @@ body {
 	text-align: center;
 	transform: rotate(90deg);
 	top: 30%;
+	
 	-webkit-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 	-ms-transition: all 500ms ease;
@@ -96,7 +97,7 @@ body {
 }
 .home {
 	height: 100vh;
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/lake-macquarie-71208_1920.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/lake-696098_1920.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
@@ -251,3 +252,11 @@ textarea {
     -webkit-transform: rotate(-360deg);
   }
 }
+/* a:visited { 
+	text-decoration: none; 
+	color: transparent; 
+   }
+   a:hover { text-decoration: none; color:transparent; }
+a:focus { text-decoration: none; color:transparent; }
+a:active { text-decoration: none; color:transparent; } */
+a{text-decoration: none;}
