@@ -174,7 +174,7 @@ width: 260px;
    
     
 }
-#solo-projects{
+/* #solo-projects{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/beach-2089959_1280.jpg);
 	background-size: cover;
 	background-position: center center;
@@ -191,7 +191,7 @@ width: 260px;
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
-}
+} */
 .Allprojects{
     align-items: center;
     align-content: center;
@@ -261,6 +261,7 @@ margin-top: 60px;
      justify-content: center;
      justify-content: center;
      height: 30px;
+     z-index: 900;
      
      /* padding:10px; */
     font-size: 1rem;
