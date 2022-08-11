@@ -2,9 +2,19 @@
     Text-shadow: 2px 4px 13px black;
     
 } */
+
+html{
+    /* height: 100%;
+    width: 100%; */
+}
 .container{
-    background: linear-gradient(green, #013220);
+    /* background: linear-gradient(green, #013220); */
     color:bisque;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/sunset\ background.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;	
+    
     /* border: none;
     padding: none;
     margin: none; */
@@ -81,4 +91,12 @@ font-size: 1.2rem;
 }
 .year{
 font-size: 1.2rem;
+}
+
+
+.solo-projects{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/forest-208517_1280.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }

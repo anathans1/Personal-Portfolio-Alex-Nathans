@@ -171,8 +171,26 @@ width: 260px;
     justify-content: space-evenly;
     flex-wrap: wrap;
     text-align: center;
+   
     
-    
+}
+#solo-projects{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/beach-2089959_1280.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;	
+}
+#team-projects{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/forest-208517_1280.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+#other-projects{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/lake-696098_1920.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
 }
 .Allprojects{
     align-items: center;
@@ -246,7 +264,8 @@ margin-top: 60px;
      
      /* padding:10px; */
     font-size: 1rem;
-    background-color: black;
+    /* background-color: black; */
+    /* background: rgb(65, 61, 61); */
     padding-bottom: 22px;
 /* padding-top: 20px; */
  }
@@ -268,6 +287,8 @@ margin-top: 60px;
  }
  
  .projects-main-title{
-    
+    padding-top: none;
+    border-top: none;
+    margin-top: none;
  }
  
