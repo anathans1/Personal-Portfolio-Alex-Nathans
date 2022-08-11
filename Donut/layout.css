@@ -1,6 +1,13 @@
-/* BELOW HEADER CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
 
-
+#Buttons{
+    text-align: center;
+}
 header{
     z-index: 999;
     top:0;
@@ -9,20 +16,19 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #050506;
-    /* background: rgb(65, 61, 61); */
+    background: #23252B;
     box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
-   
+    padding: 0 100px;
     transition: 0.6s;
 }
-/* header .logo{
+header .logo{
     color: #fff;
     font-size: 1.8em;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
-} */
+}
 header .nav{
     position: relative;
     line-height: 50px;
@@ -34,48 +40,34 @@ header .nav .menu{
     justify-content: center;
     list-style: none;
     user-select: none;
-    /* margin: 90px; */
 }
 
 .menu-item > a{
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1em;
     text-decoration: none;
     margin: 20px;
     padding: 25px 0;
 }
 
 .menu-item > a:hover{
-    color: #10B0FF;
+    color: #469DFF;
     transition: 0.3s;
 }
 
 .menu-item .sub-menu{
     position: absolute;
-    /* background: #23252B; */
-    background: rgb(65, 61, 61);
+    background: #23252B;
     top: 50px;
-    right: 5px;
     line-height: 40px;
     list-style: none;
-    border-radius: 8px 8px 8px 8px;
+    border-radius: 0 0 8px 8px;
     box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
     pointer-events: none;
     transform: translateY(20px);
     opacity: 0;
     transition: 0.3s;
     transition-property: transform, opacity;
-    padding: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    z-index: 999;
-    text-align: center;
-    
-}
-
-.menu-item .sub-menu img {
-    width: 150px;
-    height: 150px;
 }
 
 .menu-item:hover .sub-menu{
@@ -107,26 +99,14 @@ header .nav .menu{
     border-radius: 0 0 8px 8px;
 }
 
-
-/* .sub-menu {
-    width: 60vw;
-    position: fixed;
-    right: -50%;
-    /*background-color: red;*/
-/* } */ 
-
-/* .space-items {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    background-color: #1e1e1e;
-} */
-
-/* .container{
+.container{
     margin: 0;
     padding: 20px;
-} */
+}
 
 
-/* END HEADER CSS */
+#cookieclickerimg{
+    height: 80px;
+    width: 80px;
+    
+}

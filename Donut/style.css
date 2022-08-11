@@ -1,12 +1,12 @@
 
 *{
-    /* list-style: none; */
+    list-style: none;
 }
 
-/* body{
+body{
   background-image: url(donutbackground2.jpg);
   height: 200px;
-} */
+}
 .button{
     width: 100px;
     height: 100px;
@@ -18,13 +18,13 @@
     height: 500px;
 }
 
-/* .container{
+.container{
   display: grid;
 grid-template-columns: .4fr 1fr;
 grid-template-rows: 1fr;
 grid-column-gap: 0px;
 grid-row-gap: 0px;
-} */
+}
 .buttons{
   grid-area: 1 / 1 / 2 / 2; 
 }
@@ -76,14 +76,10 @@ grid-row-gap: 0px;
     background-color: aliceblue;
     width: 500px;
     max-width: 80%;
-    text-align: center;
-    font-size: 30px;
   }
 
   .modal.active{
     transform: translate(-50%, -50%) scale(1);
-    background-color: rgb(65, 61, 61);
-    color: white;
   }
 
   .modal-header{
@@ -94,36 +90,21 @@ grid-row-gap: 0px;
     border-bottom: 1px solid black;
   }
   .modal-header {
-    display: flex;
-    justify-content: center;
-    
-    /* font-size: 1.25rem;
-font-weight: bold; */
-}
-.logo-modal{
-  height: 80px;
-  width: 80px;
-
+    font-size: 1.25rem;
+font-weight: bold;
 }
 
-.close-modal{
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 10px 0;
-    background: #d16839;
-    color: white;
-    border: 0;
-    outline: none;
-    font-size: 18px;
-    border-radius: 4px;
+.modal-header .close-modal{
     cursor: pointer;
-    box-shadow: 0 5px 5px rgb(0 0 0 / 50%);
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
 .modal-body{
     padding: 10px 15px;
-    padding-top: 30px;
 }
 #overlay{
     position: fixed;

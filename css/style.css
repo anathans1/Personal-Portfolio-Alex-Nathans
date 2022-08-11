@@ -2,12 +2,24 @@
     Text-shadow: 2px 4px 13px black;
     
 } */
+
+html{
+    /* height: 100%;
+    width: 100%; */
+}
 .container{
-    background: linear-gradient(green,goldenrod);
+    /* background: linear-gradient(green, #013220); */
     color:bisque;
-    border: none;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/sunset\ background.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;	
+    
+    /* border: none;
     padding: none;
-    margin: none;
+    margin: none; */
+    /* margin-right: 10px;
+    margin-left: 10px; */
     
 }
 .header{
@@ -42,9 +54,13 @@ nav{
     box-shadow: 2px 2px, 10px;
 }
 .Skills{
-font-size: 4rem;
+font-size: 5rem;
 text-align: center;
 text-decoration: underline;
+padding: 0;
+margin: 35px;
+margin-bottom: 70px;
+/* border: 0; */
 
 }
 .Skills-Listed{
@@ -54,4 +70,66 @@ padding-right: 15px;
 padding-left: 15px;
 
 }
+html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.project-title{
+    font-size: 16px;
+    text-decoration: none;
+  
+}
+.institution{
+font-size: 1.2rem;
 
+
+}
+.degree{
+font-size: 1.2rem;
+
+}
+.year{
+font-size: 1.2rem;
+}
+
+
+.solo-projects{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/forest-208517_1280.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#solo-page{
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/beach-2089959_1280.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/lake-696098_1920.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;	
+}
+
+#team-page{
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/forest-208517_1280.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/beach-2089959_1280.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#other-page{
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/lake-696098_1920.jpg); */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/forest-208517_1280.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+.flex-slide{
+    
+}
+
+.footer,
+.push {
+  height: 50px;
+}
