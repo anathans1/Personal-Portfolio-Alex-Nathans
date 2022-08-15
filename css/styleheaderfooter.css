@@ -1,6 +1,7 @@
 
 *{
-    /* list-style: none; */
+  font-family: 'Open Sans', sans-serif;
+  font-weight:100;
 }
 
 /* body{
@@ -138,7 +139,7 @@ font-weight: bold; */
 }
 
 .menu-item{
-  text-decoration: underline;
+  text-decoration: none;
 color: white;
 
 }
