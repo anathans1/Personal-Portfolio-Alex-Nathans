@@ -4,17 +4,18 @@
      font-weight:100;
      
  }
- html{
-    
- }
+ 
 
  header {
      display: flex;
      justify-content: space-between;
      /* background-color: green; */
-     
-
  }
+ body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
  main{
     /* background-color: green; */
  }
@@ -83,7 +84,7 @@
      height: 320px;
      width: 320px;
      border-radius: 50%;
-
+    
  }
 
  .Contact {

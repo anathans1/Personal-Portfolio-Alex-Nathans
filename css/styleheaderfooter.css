@@ -79,14 +79,18 @@ grid-row-gap: 0px;
     max-width: 80%;
     text-align: center;
     font-size: 30px;
+    user-select:text;
+    
   }
 
   .modal.active{
     transform: translate(-50%, -50%) scale(1);
     background-color: rgb(65, 61, 61);
     color: white;
+    list-style: none;
+    
   }
-
+  
   .modal-header{
     padding: 10px 15px;
     display: flex;
